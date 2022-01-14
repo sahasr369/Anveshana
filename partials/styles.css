@@ -1,0 +1,27 @@
+.navbar{
+    margin-top: 10px;
+    border-radius: 15px;
+    /* background-color: aqua; */
+}
+.sform{
+    width: 40%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.lform{
+    /* margin-top: 10%; */
+    width: 40%;
+    margin: auto;  
+}
+.flex-container{
+    display: flex;
+}
+.flex-item{
+    width: 120px;
+    height: 120px;
+}
+.h1{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
