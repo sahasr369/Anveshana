@@ -1,0 +1,93 @@
+.navbar{
+    margin-top: 7px;
+    border-radius: 15px;
+    /* background-color: aqua; */
+}
+
+/* signup form  */
+
+.sform{
+    /* width: 0%; */
+    margin: auto;
+    /* text-align: center; */
+    /* background-color: aqua; */
+}
+
+.sfusername{
+    width: 40%;
+    margin: auto;  
+}
+
+.sfpassword{
+    margin-left: 30%;
+}
+
+.sfcpassword{
+    width: 40%;
+    margin: auto;  
+}
+
+.sfbtn{
+    text-align: center;
+    margin-left: 30%;
+}
+
+.lform{
+    /* margin-top: 10%; */
+    width: 40%;
+    margin: auto;  
+}
+
+/* home */
+
+.hhead{
+    text-align: center;
+}
+.fhead{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-item{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* footer */
+
+footer{
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* basic details */
+
+.bdform{
+    width: 40%;
+    margin: auto; 
+}
+
+/* books and chapters */
+
+.bcform{
+    width: 40%;
+    margin: auto;
+}
+
+/* journal publications */
+
+.jpform{
+    width: 40%;
+    margin: auto;
+}
