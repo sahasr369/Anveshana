@@ -1,4 +1,3 @@
-<footer>
-  <p>copyright© Anveshana</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer>
+<div class="footer">
+  <p>Copyright © Anveshana</p>
+</div>

@@ -22,7 +22,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="partials/style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Welcome - <?php echo $_SESSION['username'] ?></title>
 </head>
@@ -38,12 +38,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     link.</a></p>
         </div>
     </div>
-    <h1 class="hhead">Research and Extection Activities</h1>
+    <h1 class="hhead">Research and Extention Activities</h1>
     
     <div class="flex-container">
 
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3 class="fhead"><a href="basicdetails.php">Basic Details</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -52,7 +52,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </div>
     
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3 class="fhead"><a href="books&chap.php">Books and Chapters</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -61,7 +61,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </div>
     
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3 class="fhead"><a href="journalpublication.php">Journal Publications</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -71,7 +71,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 
     
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3 class="fhead"><a href="grants.php">Grants</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -80,7 +80,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </div>
 
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3 class="fhead"><a href="seminardetails.php">Seminar Details</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -89,9 +89,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </div>
 
         <div class="flex-item card" style="width: 18rem;">
-            <img src="images/research.jpg" class="card-img-top" alt="...">
+            <img src="image/modules.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h3 class="fhead"><a href="conference.php">Conference</a></h3>
+                <h3 class="fhead"><a href="conference.php">Conference Details</a></h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                     content.</p>
             </div>
@@ -115,6 +115,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
             </div>
         </div> -->
     </div>
+
+    <hr>
+    <hr>
+    <hr>
 
 
 

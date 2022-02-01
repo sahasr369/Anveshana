@@ -1,0 +1,162 @@
+.navbar{
+    margin-top: 7px;
+    border-radius: 15px;
+    background-color: rgb(4, 79, 122);
+    color: oldlace;
+}
+
+.navname{
+    color: whitesmoke;
+}
+.navname:hover{
+    color: black;
+}
+
+.fhead{
+    text-align: center;
+    color: #05505a;
+}
+
+.mhead{
+    text-align: center;
+}
+
+.reportline{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.mb{
+    background-image: url("b1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* signup form  */
+
+.sform{
+    /* width: 0%; */
+    margin: auto;
+    /* text-align: center; */
+    /* background-color: aqua; */
+}
+
+.subody{
+    background-image: url("finalbg.jpg");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.sfusername{
+    width: 40%;
+    margin: auto;  
+}
+
+.sfpassword{
+    margin-left: 30%;
+}
+
+.sfcpassword{
+    width: 40%;
+    margin: auto;  
+}
+
+.sfbtn{
+    text-align: center;
+    margin-left: 30%;
+}
+
+/* login form  */
+
+.lform{
+    /* margin-top: 10%; */
+    width: 40%;
+    margin: auto;  
+}
+
+.lbody{
+    background-image: url("finalbg.png");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* home */
+
+.hhead{
+    text-align: center;
+    color: #05505a;
+}
+.fhead{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-bottom: 10px; */
+}
+.flex-item{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* footer */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* basic details */
+
+.bdform{
+    width: 40%;
+    margin: auto; 
+}
+
+/* books and chapters */
+
+.bcform{
+    width: 40%;
+    margin: auto;
+}
+
+/* journal publications */
+
+.jpform{
+    width: 40%;
+    margin: auto;
+}
+
+/* Grants */
+
+.gform{
+    width: 40%;
+    margin: auto;  
+}
+
+/* seminar details */
+
+.sdform{
+    width: 40%;
+    margin: auto;
+}
+
+/* conference details */
+
+.cdform{
+    width: 40%;
+    margin: auto;
+}
+
