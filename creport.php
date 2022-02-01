@@ -16,13 +16,15 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="style.css">
+
 
 
     <title>Report</title>
 </head>
 
-<body>
-    <h1>Basic Details Report</h1>
+<body class="rbody">
+    <h1 class="rhead">Conference Details</h1>
 
     <div class="container my-4">
         <table class="table" id="myTable">
@@ -33,7 +35,7 @@
                     <th scope="col">Conference Name</th>
                     <th scope="col">Paper Title</th>
                     <th scope="col">Proceeding Title</th>
-                    <th scope="col">Region</th>
+                    <th scope="col">Nation / International</th>
                     <th scope="col">ISSN no.</th>
                     <th scope="col">Published Year</th>
                 </tr>
@@ -63,8 +65,10 @@
             </tbody>
         </table>
     </div>
-    <hr>
-    <input type="button" id="btnExport" value="Export" />
+    <br>
+    <input class="exportbutton" type="button" id="btnExport" value="Export" />
+    <br>
+    <br>
     <!-- <div class="container">
         <table class="table" id="myTable">
         </table>

@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Basic Details</title>
 </head>
@@ -45,21 +45,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form class="bdform" action="/anveshana/basicdetails.php" method="post">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Name</b></label>
             <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">ID</label>
+            <label for="exampleInputPassword1" class="form-label"><b>ID</b></label>
             <input type="text" class="form-control" id="id" name="id">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Email address</b></label>
             <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <fieldset data-role="controlgroup">
-            <legend>Choose your gender:</legend>
+            <legend><b>Choose your gender:</b></legend>
             <label for="male">Male</label>
             <input type="radio" name="gender" id="male" value="male" checked>
             <label for="female">Female</label>
@@ -67,7 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </fieldset>
         <br>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Designation</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Designation</b></label>
             <input type="text" class="form-control" id="designation" name="designation" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
