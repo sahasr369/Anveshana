@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   $activitylink = $_POST["activitylink"];
 
 
-  $sql = "INSERT INTO `journalpublication` (`title`, `authorname`, `department`, `journalname`, `date`, `issnno`, `activitylink`) 
+  $sql = "INSERT INTO `journalpublications` (`title`, `authorname`, `department`, `journalname`, `date`, `issnno`, `activitylink`) 
   VALUES ('$title', '$authorname', '$department', '$journalname', '$date', '$issnno', '$activitylink')";
      $result = mysqli_query($conn, $sql);
 
@@ -51,22 +51,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form class="jpform" action="/anveshana/journalpublication.php" method="POST">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Title</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Title</b></label>
             <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Author Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Author Name</b></label>
             <input type="text" class="form-control" id="authorname" name="authorname" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Department</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Department</b></label>
             <input type="text" class="form-control" id="department" name="department" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Journal Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Journal Name</b></label>
             <input type="text" class="form-control" id="journalname" name="journalname" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>
@@ -75,11 +75,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <input type="date" id="date" name="date">
 
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">ISSN Number</label>
+            <label for="exampleInputPassword1" class="form-label"><b>ISSN Number</b></label>
             <input type="text" class="form-control" id="issnno" name="issnno">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Activity Link</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Activity Link</b></label>
             <input type="text" class="form-control" id="activitylink" name="activitylink" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
         </div>

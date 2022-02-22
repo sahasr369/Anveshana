@@ -47,37 +47,37 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form class="cdform" action="/anveshana/conference.php" method="POST">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Author Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Author Name</b></label>
             <input type="text" class="form-control" id="authorname" name="authorname" aria-describedby="emailHelp">
         </div>
-        <label for="birthday">Date</label>
+        <label for="birthday"><b>Date</b></label>
         <input type="date" id="date" name="date">
         <br>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Conference Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Conference Name</b></label>
             <input type="text" class="form-control" id="conferencename" name="conferencename" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Paper Title</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Paper Title</b></label>
             <input type="text" class="form-control" id="papertitle" name="papertitle" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Proceeding Title</label>
+            <label for="exampleInputPassword1" class="form-label"><b>Proceeding Title</b></label>
             <input type="text" class="form-control" id="proceedingtitle" name="proceedingtitle">
         </div>
         <fieldset data-role="controlgroup">
             <!-- <legend>Govt / Non-Govt</legend> -->
-            <label for="male">National</label>
+            <label for="male"><b>National</b></label>
             <input type="radio" name="region" id="national" value="national" checked>
-            <label for="female">International</label>
+            <label for="female"><b>International</b></label>
             <input type="radio" name="region" id="international" value="international">
         </fieldset>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">ISSN Number</label>
+            <label for="exampleInputPassword1" class="form-label"><b>ISSN Number</b></label>
             <input type="text" class="form-control" id="issnno" name="issnno">
         </div>
         <div class="mb-3">
-        <label for="birthday">Published Year</label>
+        <label for="birthday"><b>Published Year</b></label>
         <input type="date" id="publishedyear" name="publishedyear">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>

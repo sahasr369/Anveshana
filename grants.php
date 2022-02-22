@@ -43,33 +43,33 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form class="gform" action="/anveshana/grants.php" method="POST">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Project Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Project Name</b></label>
             <input type="text" class="form-control" id="projectname" name="projectname" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">PI Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>PI Name</b></label>
             <input type="text" class="form-control" id="piname" name="piname" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">PI Department</label>
+            <label for="exampleInputEmail1" class="form-label"><b>PI Department</b></label>
             <input type="text" class="form-control" id="pidepartment" name="pidepartment" aria-describedby="emailHelp">
         </div>
-        <label for="birthday">Year Of Award</label>
+        <label for="birthday"><b>Year Of Award</b></label>
         <input type="date" id="yearofaward" name="yearofaward">
         <br>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Sanctioned Amount</label>
+            <label for="exampleInputPassword1" class="form-label"><b>Sanctioned Amount</b></label>
             <input type="text" class="form-control" id="sanctionedamount" name="sanctionedamount">
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Funding Agency</label>
+            <label for="exampleInputPassword1" class="form-label"><b>Funding Agency</b></label>
             <input type="text" class="form-control" id="fundingagency" name="fundingagency">
         </div>
         <fieldset data-role="controlgroup">
             <!-- <legend>Govt / Non-Govt</legend> -->
-            <label for="male">Govt</label>
+            <label for="male"><b>Govt</b></label>
             <input type="radio" name="agency" id="govt" value="govt" checked>
-            <label for="female">Non-Govt</label>
+            <label for="female"><b>Non-Govt</b></label>
             <input type="radio" name="agency" id="nongovt" value="nongovt">
         </fieldset>
         <button type="submit" class="btn btn-primary">Submit</button>

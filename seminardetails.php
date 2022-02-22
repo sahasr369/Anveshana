@@ -43,18 +43,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <form class="sdform" action="/anveshana/seminardetails.php" method="POST">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Seminar Name</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Seminar Name</b></label>
             <input type="text" class="form-control" id="seminarname" name="seminarname" aria-describedby="emailHelp">
         </div>
-        <label for="birthday">Date</label>
+        <label for="birthday"><b>Date</b></label>
         <input type="date" id="date" name="date">
         <br>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Number of Participants</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Number of Participants</b></label>
             <input type="text" class="form-control" id="participants" name="participants" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Activity Link</label>
+            <label for="exampleInputEmail1" class="form-label"><b>Activity Link</b></label>
             <input type="text" class="form-control" id="link" name="link" aria-describedby="emailHelp">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
