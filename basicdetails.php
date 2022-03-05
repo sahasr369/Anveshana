@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Basic Details</title>
 </head>
@@ -73,6 +73,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
+    <?php
+    
+    // if($submit)
+    // {
+    //     echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    //     <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    //     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    //   </div>';
+    // }
+
+    ?>
 
     <h2 class="reportline">Click <a href="bdreport.php">Here</a> to Generate the Report</h2>
 
